@@ -95,3 +95,8 @@ ul {
 .none {
     display: none;
 }
+
+.navBar form {
+    padding: 1%;
+    width: 75%;
+}
