@@ -39,6 +39,56 @@ const Software = {
         downloadURL: 'https://shotcut.org/',
         developer: 'ShotCut'
     },
+    GIMP: {
+        name: 'GIMP',
+        downloadURL: 'https://www.gimp.org/',
+        developer: 'The GIMP Development Team',
+    },
+    Audacity: {
+        name: 'Audacity',
+        downloadURL: 'https://www.audacityteam.org/',
+        developer: 'Audacity Team',
+    },
+    Blender: {
+        name: 'Blender',
+        downloadURL: 'https://www.blender.org/',
+        developer: 'Blender Foundation',
+    },
+    Inkscape: {
+        name: 'Inkscape',
+        downloadURL: 'https://inkscape.org/',
+        developer: 'Inkscape Community',
+    },
+    KeePassXC: {
+        name: 'KeePassXC',
+        downloadURL: 'https://keepassxc.org/',
+        developer: 'KeePassXC Team',
+    },
+    VSCode: {
+        name: 'Visual Studio Code',
+        downloadURL: 'https://code.visualstudio.com/',
+        developer: 'Microsoft',
+    },
+    Git: {
+        name: 'Git',
+        downloadURL: 'https://git-scm.com/',
+        developer: 'Git Community',
+    },
+    PostgreSQL: {
+        name: 'PostgreSQL',
+        downloadURL: 'https://www.postgresql.org/',
+        developer: 'PostgreSQL Global Development Group',
+    },
+    NodeJs: {
+        name: 'Node.js',
+        downloadURL: 'https://nodejs.org/',
+        developer: 'Node.js Foundation',
+    },
+    FileZilla: {
+        name: 'FileZilla',
+        downloadURL: 'https://filezilla-project.org/',
+        developer: 'FileZilla Project',
+    },
 }
 
 const softwareNameItem = document.querySelector(".softwareName");
