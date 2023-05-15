@@ -9,6 +9,16 @@ const Software = {
         downloadURL: 'https://ungoogled-software.github.io/ungoogled-chromium-binaries/',
         developer: 'ungoogled-software'
     },
+    Vivaldi: {
+        name: "Vivaldi",
+        downloadURL: "https://vivaldi.com/fr/",
+        developer: "Vivaldi",
+    },
+    Brave: {
+        name: "Brave",
+        downloadURL: "https://brave.com/fr/",
+        developer: "Brave",
+    },
     LibreOffice: {
         name: 'LibreOffice',
         downloadURL: 'https://fr.libreoffice.org/download/telecharger-libreoffice/',
@@ -117,6 +127,5 @@ function searchFunction(e) {
         }
     }
 }
-
 
 searchButton.addEventListener("click", searchFunction);
