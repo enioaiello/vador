@@ -99,6 +99,76 @@ const Software = {
         downloadURL: 'https://filezilla-project.org/',
         developer: 'FileZilla Project',
     },
+    Krita: {
+        name: 'Krita',
+        downloadURL: 'https://krita.org/',
+        developer: 'Krita Foundation',
+    },
+    Darktable: {
+        name: 'Darktable',
+        downloadURL: 'https://www.darktable.org/',
+        developer: 'Darktable project',
+    },
+    MuseScore: {
+        name: 'MuseScore',
+        downloadURL: 'https://musescore.org/',
+        developer: 'MuseScore community',
+    },
+    FreeCAD: {
+        name: 'FreeCAD',
+        downloadURL: 'https://www.freecadweb.org/',
+        developer: 'FreeCAD community',
+    },
+    HandBrake: {
+        name: 'LMMS',
+        downloadURL: 'https://lmms.io/',
+        developer: 'LMMS community',
+    },
+    OBS: {
+        name: 'Natron',
+        downloadURL: 'https://natrongithub.github.io/',
+        developer: 'Natron community',
+    },
+    ShotCut: {
+        name: 'Flowblade',
+        downloadURL: 'https://jliljebl.github.io/flowblade/',
+        developer: 'Flowblade community',
+    },
+    GIMP: {
+        name: 'Pinta',
+        downloadURL: 'https://pinta-project.com/',
+        developer: 'Pinta community',
+    },
+    Inkscape: {
+        name: 'Scribus',
+        downloadURL: 'https://www.scribus.net/',
+        developer: 'Scribus community',
+    },
+    PostgreSQL: {
+        name: 'MySQL',
+        downloadURL: 'https://www.mysql.com/',
+        developer: 'Oracle Corporation',
+    },
+    NodeJs: {
+        name: 'Deno',
+        downloadURL: 'https://deno.land/',
+        developer: 'Deno Land',
+    },
+    Blender: {
+        name: 'Natron',
+        downloadURL: 'https://natrongithub.github.io/',
+        developer: 'Natron community',
+    },
+    OBS: {
+        name: 'SimpleScreenRecorder',
+        downloadURL: 'https://www.maartenbaert.be/simplescreenrecorder/',
+        developer: 'Maarten Baert',
+    },
+    ShotCut: {
+        name: 'Flowblade',
+        downloadURL: 'https://jliljebl.github.io/flowblade/',
+        developer: 'Flowblade community',
+    },
 }
 
 const softwareNameItem = document.querySelector(".softwareName");
