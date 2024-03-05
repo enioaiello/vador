@@ -11,8 +11,6 @@
 </head>
 <body>
     <div class="navBar">
-        <img src="./assets/img/logo.jpg" alt="Vador Logo"> 
-        <h2>Vador</h2>
         <form>
             <input type="text" placeholder="Start the search">
             <input type="submit" value="Search" title="Search for it!">
@@ -20,19 +18,22 @@
     </div>
     <div class="container">
         <div class="generalContent">
-            <img src="./assets/img/logo.jpg" alt="">
+            <img src="./assets/img/logo.jpg" alt="Vador Logo">
             <h1>Vador</h1>
             <p><small>The open-source search engine for software.</small></p>
-            <p><a href="./views/softwares.html">See what software is listed</a></p>
+            <ul id="socials">
+                <li>
+                    <a href="https://github.com/enioaiello/vador/" target="_blank" title="Our GitHub"><i class="fa-brands fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/enioaiello/" target="_blank" title="My Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="content none">
-        <div class="softwareInformation">
-            <h2 class="softwareName">The software you are looking for is not listed or does not exist!</h2>
-            <h3 class="softwareDevelopper">Message from Vader</h3>
-            <p><a href="#" target="_blank" class="downloadButton" title="Download this software">Download</a></p>
-        </div>
+    <div id="resultsList" class="content none">
     </div>
     <script src="./assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/127f7eda6e.js" crossorigin="anonymous"></script>
 </body>
 </html>

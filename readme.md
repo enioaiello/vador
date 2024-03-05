@@ -1,9 +1,26 @@
-![banner](./assets/img/banner.png)
 # Vador Project
+
+![banner](./assets/img/banner.png)
+
 ## Welcome
-**Vador Project** is a free and open-source project that lists various free and open-source software directly from their official websites.
+
+**Vador Project** is a free and open-source project that compiles a list of various free and open-source software directly from their official websites.
+
 ## How it works
-Just go to [this site](https://enioaiello.github.io/vador) and do your research! Or you can use the free [Admin Services edition]([https://enioaiello.github.io/admin-services/views/apps/vador.html](https://enioaiello.github.io/admin-services/views/applications/vador))!
-> Beware! Some softwares are not yet listed, send me a mail [here](mailto:aielloenio@icloud.com) to submit your software!
-## Thanks
-Thanks to **ChatGPT** who helped me a lot for the functioning of the site or for some software.
+
+Simply visit [our website](https://enioaiello.github.io/vador) and start browsing through the listed software!
+
+> Note: If you don't find a particular software listed, feel free to reach out to us by sending an email [here](mailto:aielloenio@icloud.com) to submit your software for consideration.
+
+## License
+
+Vador Project is licensed under the [MIT License](LICENSE).
+
+## Support
+
+For any inquiries or support requests, please contact us at [aielloenio@icloud.com](mailto:aielloenio@icloud.com).
+
+## Acknowledgements
+
+Special thanks to **ChatGPT** for the invaluable assistance provided in developing the site and curating the software list.
+
