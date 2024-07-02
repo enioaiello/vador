@@ -155,5 +155,16 @@ ul {
 }
 
 @media (prefers-color-scheme: dark) {
-    
+    body {
+        background-color: #252526;
+        color: #ffffff;
+    }
+
+    body img {
+        filter: invert(1);
+    }
+
+    body i {
+        color: #ffffff;
+    }
 }

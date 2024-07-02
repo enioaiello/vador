@@ -89,11 +89,11 @@ const Software = {
         developer: 'KeePassXC Team',
         description: 'KeePassXC is a free and open-source password manager for managing passwords securely.'
     },
-    VSCode: {
-        name: 'Visual Studio Code',
-        downloadURL: 'https://code.visualstudio.com/',
+    VSCodium: {
+        name: 'VSCodium',
+        downloadURL: 'https://vscodium.com/',
         developer: 'Microsoft',
-        description: 'Visual Studio Code is a free and open-source source-code editor developed by Microsoft.'
+        description: 'VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VSCode.'
     },
     Git: {
         name: 'Git',
@@ -478,6 +478,12 @@ const Software = {
         downloadURL: 'https://www.eclipse.org/downloads/',
         developer: 'Eclipse Foundation',
         description: 'Eclipse is an integrated development environment (IDE) used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment.'
+    },
+    CodeEdit: {
+        name: 'CodeEdit',
+        downloadURL: 'https://www.codeedit.app',
+        developer: 'CodeEdit',
+        description: 'CodeEdit is an amazing and beautiful free and open-source source-code editor built for macOS that combine the look and feel of Xcode.'
     }
 };
 
