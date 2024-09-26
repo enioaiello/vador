@@ -167,4 +167,14 @@ ul {
     body i {
         color: #ffffff;
     }
+
+    .navBar {
+        background-color: #1e1e1e;
+    }
+
+    .softwareInformation {
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        color: #000000;
+    }
 }

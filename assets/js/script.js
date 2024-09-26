@@ -461,29 +461,413 @@ const Software = {
         developer: 'GNU Project',
         description: 'Emacs is a family of text editors that are characterized by their extensibility. The manual for the most widely used variant, GNU Emacs, describes it as "the extensible, customizable, self-documenting, real-time display editor".'
     },
-    Atom: {
-        name: 'Atom',
-        downloadURL: 'https://atom.io/',
-        developer: 'GitHub',
-        description: 'Atom is a free and open-source text and source code editor developed by GitHub.'
-    },
-    VSCode: {
-        name: 'Visual Studio Code',
-        downloadURL: 'https://code.visualstudio.com/',
-        developer: 'Microsoft',
-        description: 'Visual Studio Code is a free and open-source source-code editor developed by Microsoft.'
-    },
-    Eclipse: {
-        name: 'Eclipse',
-        downloadURL: 'https://www.eclipse.org/downloads/',
-        developer: 'Eclipse Foundation',
-        description: 'Eclipse is an integrated development environment (IDE) used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment.'
-    },
     CodeEdit: {
         name: 'CodeEdit',
         downloadURL: 'https://www.codeedit.app',
         developer: 'CodeEdit',
         description: 'CodeEdit is an amazing and beautiful free and open-source source-code editor built for macOS that combine the look and feel of Xcode.'
+    },
+    MariaDB: {
+        name: 'MariaDB',
+        downloadURL: 'https://mariadb.org/download/',
+        developer: 'MariaDB Foundation',
+        description: 'MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system.'
+    },
+    Redis: {
+        name: 'Redis',
+        downloadURL: 'https://redis.io/download',
+        developer: 'Redis Labs',
+        description: 'Redis is an open-source, in-memory data structure store, used as a database, cache, and message broker.'
+    },
+    Elasticsearch: {
+        name: 'Elasticsearch',
+        downloadURL: 'https://www.elastic.co/downloads/elasticsearch',
+        developer: 'Elastic NV',
+        description: 'Elasticsearch is a search engine based on the Lucene library, providing a distributed, multitenant-capable full-text search engine.'
+    },
+    Grafana: {
+        name: 'Grafana',
+        downloadURL: 'https://grafana.com/grafana/download',
+        developer: 'Grafana Labs',
+        description: 'Grafana is an open-source platform for monitoring and observability, providing tools to query, visualize, alert on, and understand your metrics.'
+    },
+    Prometheus: {
+        name: 'Prometheus',
+        downloadURL: 'https://prometheus.io/download/',
+        developer: 'Prometheus Team',
+        description: 'Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.'
+    },
+    Kubernetes: {
+        name: 'Kubernetes',
+        downloadURL: 'https://kubernetes.io/docs/setup/',
+        developer: 'Cloud Native Computing Foundation',
+        description: 'Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.'
+    },
+    Terraform: {
+        name: 'Terraform',
+        downloadURL: 'https://www.terraform.io/downloads.html',
+        developer: 'HashiCorp',
+        description: 'Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.'
+    },
+    Ansible: {
+        name: 'Ansible',
+        downloadURL: 'https://www.ansible.com/products/engine',
+        developer: 'Red Hat',
+        description: 'Ansible is an open-source software provisioning, configuration management, and application-deployment tool.'
+    },
+    Puppet: {
+        name: 'Puppet',
+        downloadURL: 'https://puppet.com/download-puppet-open-source/',
+        developer: 'Puppet, Inc.',
+        description: 'Puppet is an open-source software configuration management tool.'
+    },
+    Chef: {
+        name: 'Chef',
+        downloadURL: 'https://downloads.chef.io/',
+        developer: 'Progress Software',
+        description: 'Chef is an open-source configuration management tool written in Ruby and Erlang.'
+    },
+    SaltStack: {
+        name: 'SaltStack',
+        downloadURL: 'https://saltproject.io/downloads/',
+        developer: 'SaltStack',
+        description: 'SaltStack is an open-source software for event-driven IT automation, remote task execution, and configuration management.'
+    },
+    JenkinsX: {
+        name: 'Jenkins X',
+        downloadURL: 'https://jenkins-x.io/',
+        developer: 'Jenkins X project',
+        description: 'Jenkins X is an open-source project that provides automated CI/CD for cloud-native applications on Kubernetes.'
+    },
+    ArgoCD: {
+        name: 'Argo CD',
+        downloadURL: 'https://argoproj.github.io/argo-cd/',
+        developer: 'Argo Project',
+        description: 'Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.'
+    },
+    Spinnaker: {
+        name: 'Spinnaker',
+        downloadURL: 'https://www.spinnaker.io/downloads/',
+        developer: 'Spinnaker project',
+        description: 'Spinnaker is an open-source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.'
+    },
+    Consul: {
+        name: 'Consul',
+        downloadURL: 'https://www.consul.io/downloads',
+        developer: 'HashiCorp',
+        description: 'Consul is a service networking solution to connect and secure services across any runtime platform and public or private cloud.'
+    },
+    Vault: {
+        name: 'Vault',
+        downloadURL: 'https://www.vaultproject.io/downloads',
+        developer: 'HashiCorp',
+        description: 'Vault is an identity-based secrets and encryption management system.'
+    },
+    Nomad: {
+        name: 'Nomad',
+        downloadURL: 'https://www.nomadproject.io/downloads',
+        developer: 'HashiCorp',
+        description: 'Nomad is a flexible, enterprise-grade cluster scheduler for deploying applications on any infrastructure.'
+    },
+    Istio: {
+        name: 'Istio',
+        downloadURL: 'https://istio.io/latest/docs/setup/getting-started/',
+        developer: 'Istio project',
+        description: 'Istio is an open-source service mesh that provides a way to control how microservices share data with one another.'
+    },
+    Linkerd: {
+        name: 'Linkerd',
+        downloadURL: 'https://linkerd.io/2/getting-started/',
+        developer: 'Linkerd project',
+        description: 'Linkerd is an open-source service mesh for Kubernetes.'
+    },
+    OpenShift: {
+        name: 'OpenShift',
+        downloadURL: 'https://www.openshift.com/try',
+        developer: 'Red Hat',
+        description: 'OpenShift is a family of containerization software developed by Red Hat.'
+    },
+    Minikube: {
+        name: 'Minikube',
+        downloadURL: 'https://minikube.sigs.k8s.io/docs/start/',
+        developer: 'Kubernetes project',
+        description: 'Minikube is a tool that makes it easy to run Kubernetes locally.'
+    },
+    Kind: {
+        name: 'Kind',
+        downloadURL: 'https://kind.sigs.k8s.io/docs/user/quick-start/',
+        developer: 'Kubernetes project',
+        description: 'Kind is a tool for running local Kubernetes clusters using Docker container nodes.'
+    },
+    Helm: {
+        name: 'Helm',
+        downloadURL: 'https://helm.sh/docs/intro/install/',
+        developer: 'Helm project',
+        description: 'Helm is a package manager for Kubernetes.'
+    },
+    Kustomize: {
+        name: 'Kustomize',
+        downloadURL: 'https://kustomize.io/',
+        developer: 'Kubernetes project',
+        description: 'Kustomize is a configuration management tool for Kubernetes.'
+    },
+    Fluentd: {
+        name: 'Fluentd',
+        downloadURL: 'https://www.fluentd.org/download',
+        developer: 'Fluentd project',
+        description: 'Fluentd is an open-source data collector for unified logging layer.'
+    },
+    Logstash: {
+        name: 'Logstash',
+        downloadURL: 'https://www.elastic.co/downloads/logstash',
+        developer: 'Elastic NV',
+        description: 'Logstash is a server-side data processing pipeline that ingests data from multiple sources simultaneously, transforms it, and then sends it to your favorite “stash.”'
+    },
+    Kibana: {
+        name: 'Kibana',
+        downloadURL: 'https://www.elastic.co/downloads/kibana',
+        developer: 'Elastic NV',
+        description: 'Kibana is an open-source data visualization dashboard for Elasticsearch.'
+    },
+    Graylog: {
+        name: 'Graylog',
+        downloadURL: 'https://www.graylog.org/downloads',
+        developer: 'Graylog, Inc.',
+        description: 'Graylog is an open-source log management platform.'
+    },
+    Promtail: {
+        name: 'Promtail',
+        downloadURL: 'https://grafana.com/docs/loki/latest/clients/promtail/',
+        developer: 'Grafana Labs',
+        description: 'Promtail is an agent which ships the contents of local logs to a private Grafana Loki instance or Grafana Cloud.'
+    },
+    Loki: {
+        name: 'Loki',
+        downloadURL: 'https://grafana.com/docs/loki/latest/getting-started/',
+        developer: 'Grafana Labs',
+        description: 'Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.'
+    },
+    Jaeger: {
+        name: 'Jaeger',
+        downloadURL: 'https://www.jaegertracing.io/docs/1.21/getting-started/',
+        developer: 'Jaeger project',
+        description: 'Jaeger is an open-source, end-to-end distributed tracing tool.'
+    },
+    Zipkin: {
+        name: 'Zipkin',
+        downloadURL: 'https://zipkin.io/pages/quickstart.html',
+        developer: 'OpenZipkin project',
+        description: 'Zipkin is a distributed tracing system.'
+    },
+    OpenTelemetry: {
+        name: 'OpenTelemetry',
+        downloadURL: 'https://opentelemetry.io/docs/',
+        developer: 'OpenTelemetry project',
+        description: 'OpenTelemetry is an observability framework for cloud-native software, providing a set of APIs, libraries, agents, and instrumentation to enable the collection of distributed traces and metrics.'
+    },
+    Thanos: {
+        name: 'Thanos',
+        downloadURL: 'https://thanos.io/tip/getting-started.md/',
+        developer: 'Thanos project',
+        description: 'Thanos is an open-source, highly available Prometheus setup with long-term storage capabilities.'
+    },
+    Cortex: {
+        name: 'Cortex',
+        downloadURL: 'https://cortexmetrics.io/docs/',
+        developer: 'Cortex project',
+        description: 'Cortex is a horizontally scalable, highly available, multi-tenant, long term storage for Prometheus.'
+    },
+    VictoriaMetrics: {
+        name: 'VictoriaMetrics',
+        downloadURL: 'https://victoriametrics.github.io/',
+        developer: 'VictoriaMetrics project',
+        description: 'VictoriaMetrics is a fast, cost-effective, and scalable monitoring solution and time series database.'
+    },
+    InfluxDB: {
+        name: 'InfluxDB',
+        downloadURL: 'https://www.influxdata.com/products/influxdb/',
+        developer: 'InfluxData',
+        description: 'InfluxDB is an open-source time series database developed by InfluxData.'
+    },
+    TimescaleDB: {
+        name: 'TimescaleDB',
+        downloadURL: 'https://www.timescale.com/products',
+        developer: 'Timescale, Inc.',
+        description: 'TimescaleDB is an open-source time-series database optimized for fast ingest and complex queries, built on PostgreSQL.'
+    },
+    Graphite: {
+        name: 'Graphite',
+        downloadURL: 'https://graphiteapp.org/',
+        developer: 'Graphite project',
+        description: 'Graphite is an open-source monitoring tool used to store and graph time series data.'
+    },
+    Netdata: {
+        name: 'Netdata',
+        downloadURL: 'https://www.netdata.cloud/',
+        developer: 'Netdata, Inc.',
+        description: 'Netdata is an open-source, distributed, real-time, performance and health monitoring tool for systems and applications.'
+    },
+    Zabbix: {
+        name: 'Zabbix',
+        downloadURL: 'https://www.zabbix.com/download',
+        developer: 'Zabbix LLC',
+        description: 'Zabbix is an open-source monitoring software tool for diverse IT components, including networks, servers, virtual machines, and cloud services.'
+    },
+    Nagios: {
+        name: 'Nagios',
+        downloadURL: 'https://www.nagios.org/downloads/',
+        developer: 'Nagios Enterprises',
+        description: 'Nagios is an open-source computer-software application that monitors systems, networks, and infrastructure.'
+    },
+    Icinga: {
+        name: 'Icinga',
+        downloadURL: 'https://icinga.com/download/',
+        developer: 'Icinga GmbH',
+        description: 'Icinga is an open-source computer system and network monitoring application.'
+    },
+    Sensu: {
+        name: 'Sensu',
+        downloadURL: 'https://sensu.io/downloads',
+        developer: 'Sensu, Inc.',
+        description: 'Sensu is an open-source monitoring tool for multi-cloud environments.'
+    },
+    Checkmk: {
+        name: 'Checkmk',
+        downloadURL: 'https://checkmk.com/download',
+        developer: 'tribe29 GmbH',
+        description: 'Checkmk is an open-source IT infrastructure monitoring software.'
+    },
+    Cacti: {
+        name: 'Cacti',
+        downloadURL: 'https://www.cacti.net/download_cacti.php',
+        developer: 'Cacti project',
+        description: 'Cacti is an open-source, web-based network monitoring and graphing tool.'
+    },
+    LibreNMS: {
+        name: 'LibreNMS',
+        downloadURL: 'https://www.librenms.org/#download',
+        developer: 'LibreNMS project',
+        description: 'LibreNMS is an open-source network monitoring system.'
+    },
+    Observium: {
+        name: 'Observium',
+        downloadURL: 'https://www.observium.org/download/',
+        developer: 'Observium Limited',
+        description: 'Observium is an open-source network monitoring platform.'
+    },
+    OpenNMS: {
+        name: 'OpenNMS',
+        downloadURL: 'https://www.opennms.org/en/install',
+        developer: 'The OpenNMS Group, Inc.',
+        description: 'OpenNMS is an open-source network management platform.'
+    },
+    Zenoss: {
+        name: 'Zenoss',
+        downloadURL: 'https://www.zenoss.com/product/service-assurance',
+        developer: 'Zenoss, Inc.',
+        description: 'Zenoss is an open-source hybrid IT monitoring platform.'
+    },
+    PrometheusOperator: {
+        name: 'Prometheus Operator',
+        downloadURL: 'https://github.com/prometheus-operator/prometheus-operator',
+        developer: 'Prometheus Operator project',
+        description: 'Prometheus Operator provides Kubernetes native deployment and management of Prometheus and related monitoring components.'
+    },
+    KubeStateMetrics: {
+        name: 'Kube-state-metrics',
+        downloadURL: 'https://github.com/kubernetes/kube-state-metrics',
+        developer: 'Kubernetes project',
+        description: 'Kube-state-metrics is a simple service that listens to the Kubernetes API server and generates metrics about the state of the objects.'
+    },
+    MetricsServer: {
+        name: 'Metrics Server',
+        downloadURL: 'https://github.com/kubernetes-sigs/metrics-server',
+        developer: 'Kubernetes project',
+        description: 'Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.'
+    },
+    Kiali: {
+        name: 'Kiali',
+        downloadURL: 'https://kiali.io/',
+        developer: 'Kiali project',
+        description: 'Kiali is an observability console for Istio with service mesh configuration capabilities.'
+    },
+    GrafanaLoki: {
+        name: 'Grafana Loki',
+        downloadURL: 'https://grafana.com/oss/loki/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.'
+    },
+    GrafanaTempo: {
+        name: 'Grafana Tempo',
+        downloadURL: 'https://grafana.com/oss/tempo/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Tempo is an open-source, easy-to-use, and high-scale distributed tracing backend.'
+    },
+    GrafanaAgent: {
+        name: 'Grafana Agent',
+        downloadURL: 'https://grafana.com/docs/agent/latest/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Agent is a telemetry collector for sending metrics, logs, and traces to the Grafana observability stack.'
+    },
+    GrafanaCloud: {
+        name: 'Grafana Cloud',
+        downloadURL: 'https://grafana.com/products/cloud/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Cloud is a composable observability platform, integrating metrics, logs, and traces with Grafana.'
+    },
+    GrafanaEnterprise: {
+        name: 'Grafana Enterprise',
+        downloadURL: 'https://grafana.com/products/enterprise/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise is a commercial version of Grafana with additional features and support.'
+    },
+    GrafanaEnterpriseMetrics: {
+        name: 'Grafana Enterprise Metrics',
+        downloadURL: 'https://grafana.com/products/enterprise-metrics/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise Metrics is a scalable, secure, and cost-effective Prometheus-compatible metrics platform.'
+    },
+    GrafanaEnterpriseLogs: {
+        name: 'Grafana Enterprise Logs',
+        downloadURL: 'https://grafana.com/products/enterprise-logs/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise Logs is a scalable, secure, and cost-effective log aggregation platform.'
+    },
+    GrafanaEnterpriseTraces: {
+        name: 'Grafana Enterprise Traces',
+        downloadURL: 'https://grafana.com/products/enterprise-traces/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise Traces is a scalable, secure, and cost-effective distributed tracing platform.'
+    },
+    GrafanaEnterpriseStack: {
+        name: 'Grafana Enterprise Stack',
+        downloadURL: 'https://grafana.com/products/enterprise-stack/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise Stack is a composable observability platform, integrating metrics, logs, and traces with Grafana.'
+    },
+    GrafanaEnterpriseCloud: {
+        name: 'Grafana Enterprise Cloud',
+        downloadURL: 'https://grafana.com/products/enterprise-cloud/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise Cloud is a composable observability platform, integrating metrics, logs, and traces with Grafana.'
+    },
+    GrafanaEnterpriseOnPrem: {
+        name: 'Grafana Enterprise On-Prem',
+        downloadURL: 'https://grafana.com/products/enterprise-on-prem/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise On-Prem is a composable observability platform, integrating metrics, logs, and traces with Grafana.'
+    },
+    GrafanaEnterpriseCloudOnPrem: {
+        name: 'Grafana Enterprise Cloud On-Prem',
+        downloadURL: 'https://grafana.com/products/enterprise-cloud-on-prem/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise Cloud On-Prem is a composable observability platform, integrating metrics, logs, and traces with Grafana.'
+    },
+    GrafanaEnterpriseCloudOnPremStack: {
+        name: 'Grafana Enterprise Cloud On-Prem Stack',
+        downloadURL: 'https://grafana.com/products/enterprise-cloud-on-prem-stack/',
+        developer: 'Grafana Labs',
+        description: 'Grafana Enterprise Cloud On-Prem Stack is a composable observability platform, integrating metrics, logs, and traces with Grafana.'
     }
 };
 
