@@ -10,8 +10,6 @@
 
 Simply visit [our website](https://enioaiello.github.io/vador) and start browsing through the listed software!
 
-> Note: If you don't find a particular software listed, feel free to reach out to us by sending an email [here](mailto:aielloenio@icloud.com) to submit your software for consideration.
-
 ## License
 
 Vador Project is licensed under the [MIT License](LICENSE).
