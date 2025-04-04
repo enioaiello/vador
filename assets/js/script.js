@@ -3,7 +3,7 @@ const Software = {
         name: 'Firefox',
         downloadURL: 'https://www.mozilla.org/en-US/firefox/new/',
         developer: 'Mozilla',
-        description: 'Firefox is a popular web browser developed by Mozilla.'
+        description: 'Firefox est un navigateur Web populaire conçu par Mozilla.'
     },
     Chromium: {
         name: 'Chromium',
